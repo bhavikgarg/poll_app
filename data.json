@@ -1,0 +1,22 @@
+{
+   "question" : "Who is the best ODI player in the world ?",
+   "type": "single_choice",
+   "link": "http://www.relianceiccrankings.com/odi/batting/rankings.php",
+   "votes": "23004",
+   "options": [{
+     "text": "Virat Kohli",
+     "votes": "10234"
+   },{
+     "text": "AB DE Villiers",
+     "votes": "9331"
+   },{
+     "text": "Hashim Amla",
+     "votes": "3234"
+   },{
+     "text": "Rohit Sharma",
+     "votes": "1244"
+   },{
+     "text": "Someone else",
+     "votes": "3400"
+   }]
+ }

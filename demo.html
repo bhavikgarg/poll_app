@@ -1,0 +1,68 @@
+<style>
+
+        	#poll-container {
+        		display : -webkit-flex;
+        		display: flex;
+        		background-image: url(images/background.jpg);
+        		 -webkit-background-size: cover;
+				  -moz-background-size: cover;
+				  -o-background-size: cover;
+				  background-size: cover;
+
+				  width : 100%;
+				  height : auto;
+				  min-height : 400px;
+        	}
+
+        	.text-white {
+        		color : #fff;
+        	}
+
+        	.option  {
+        		width : 50%;
+        		float : left;
+        		padding: 13px;
+			    margin: 0 5px 10px 0;
+			    color: #FFF;
+			    cursor: pointer;
+			    position: relative;
+			    background: url(images/poll-option-light.png);
+        	}
+
+        	.option:hover {
+        		background: #042f74;
+    			color: #FFF;
+        	}
+
+        	#question-container {
+        		width : 100%;
+        	}
+
+        	#option-container {
+        		width : 100%;
+        	}
+
+        	.question {
+        		width : 100%;
+        		line-height: 1.5em;
+        		margin-left : 20px;
+        	}
+        	.icon-go {
+        		right : 10%;
+        		color : yellow;
+        	}
+
+        	.active {
+        		background: yellow;
+        		color : white;
+        	}
+        	.navy-blue {
+        		background : #042f74;
+        		color : white;
+        	}
+        </style>
+
+
+
+<div id = 'poll-container'>
+<div class = 'result'><span class = 'navy-blue' style = 'width : 37%; height : 100%; background-color : #042f74;'></span>Virat Kohli<span class = 'text-white'>37%</span></div><div class = 'result'><span class = 'navy-blue' style = 'width : 34%; height : 100%; background-color : #042f74;'></span>AB DE Villiers<span class = 'text-white'>34%</span></div><div class = 'result'><span class = 'active' style = 'background-color : yellow ; width : 12%; height : 100%'></span>Hashim Amla<span class = 'text-white'>12%</span></div><div class = 'result'><span class = 'navy-blue' style = 'width : 5%; height : 100%; background-color : #042f74;'></div>Rohit Sharma<span class = 'text-white'>5%</span></div><div class = 'result'><span class = 'navy-blue' style = 'width : 12%; height : 100%; background-color : #042f74;'></div>Someone else<span class = 'text-white'>12%</span></div></div>

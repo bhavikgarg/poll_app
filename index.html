@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!-- jquery js -->
+     <style>
+
+        	#poll-container {
+        		display : -webkit-flex;
+        		display: flex;
+        		background-image: url(images/background.jpg);
+        		 -webkit-background-size: cover;
+				  -moz-background-size: cover;
+				  -o-background-size: cover;
+				  background-size: cover;
+
+				  width : 100%;
+				  height : auto;
+				  min-height : 400px;
+        	}
+
+        	.text-white {
+        		color : #fff;
+        	}
+
+        	.option  {
+        		width : 50%;
+        		float : left;
+        		padding: 13px;
+			    margin: 0 5px 10px 0;
+			    color: #FFF;
+			    cursor: pointer;
+			    position: relative;
+			    background: url(images/poll-option-light.png);
+        	}
+
+        	.option:hover {
+        		background: #042f74;
+    			color: #FFF;
+        	}
+
+        	#question-container {
+        		width : 100%;
+        	}
+
+        	#option-container {
+        		width : 100%;
+        	}
+
+        	.question {
+        		width : 100%;
+        		line-height: 1.5em;
+        		margin-left : 20px;
+        	}
+        	.icon-go {
+        		right : 10%;
+        		color : yellow;
+        	}
+
+        	.active {
+        		background: yellow;
+        		color : white;
+        	}
+        	.navy-blue {
+        		background : #042f74;
+        		color : white;
+        	}
+        </style>
+        <script src = "https://code.jquery.com/jquery-3.0.0.min.js" type = "text/javascript"></script> 
+	</head>
+
+	<body>
+
+		<div id = 'poll-container'>
+			<script type="text/javascript">
+
+				$(function(){
+					var script = document.createElement("script");
+					script.src = "app.js";
+					script.type = "text/javascript";
+
+					console.log("Script tag is : "+script);
+					document.head.appendChild(script);
+				});
+
+			</script>
+
+			<!-- <div id = 'question-container'>
+				<div class = 'question'>
+					<h1 class = 'text-white'>Question here</h1>
+				</div>	
+				<h5 class = 'text-white'>Click one of the options below to vote and see results.</h5>
+
+			</div>
+			
+			<div id = 'option-container'>
+				<div class = 'option' id = '1'>
+					Under 10% <span class = 'icon-go'><i class = 'fa fa-'></i></span>
+				</div>
+
+				<div class = 'option'>
+					Under 10%
+				</div>
+
+			</div> -->
+
+
+
+
+		</div>
+
+		<div id = 'result'>Result Here</div>
+
+	</body>
+
+
+</html>
